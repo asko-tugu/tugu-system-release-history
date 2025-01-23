@@ -26,10 +26,10 @@ Handles broadcasting commands and data to a specific room.
 
 ### Supported `cmd` Values
 
-| **`cmd`**          | **Description**       | **`data` Structure**                   |
-| ------------------ | --------------------- | -------------------------------------- |
-| `voiceStreamStart` | VoiceStream 전송 시작 | `{ userId: string, timestamp: string}` |
-| `voiceStreamStop`  | VoiceStream 전송 종료 | `{ userId: string, timestamp: string}` |
+| **`cmd`**             | **Description**       | **`data` Structure**                   |
+| --------------------- | --------------------- | -------------------------------------- |
+| `1. voiceStreamStart` | VoiceStream 전송 시작 | `{ userId: string, timestamp: string}` |
+| `2. voiceStreamStop`  | VoiceStream 전송 종료 | `{ userId: string, timestamp: string}` |
 
 ---
 
@@ -41,6 +41,19 @@ Handles broadcasting commands and data to a specific room.
 {
   "room": "31f15c3d-decc-451a-84a8-31c16452ab75",
   "cmd": "voiceStreamStart",
+  "data": {
+    "userId": "779c9f7d-b6a1-4c2b-a933-a2505867855a",
+    "timestamp": "2025-01-07T08:05:09.146Z"
+  }
+}
+```
+
+#### 2. `voiceStreamStop`
+
+```json
+{
+  "room": "31f15c3d-decc-451a-84a8-31c16452ab75",
+  "cmd": "voiceStreamStop",
   "data": {
     "userId": "779c9f7d-b6a1-4c2b-a933-a2505867855a",
     "timestamp": "2025-01-07T08:05:09.146Z"
