@@ -9,6 +9,7 @@
 | **SuperAdmin** | `<bucket> / tugu / profile / superadmin / <object>` |
 | **Company**    | `<bucket> / tugu / profile / company / <object>`    |
 | **WorkPlace**  | `<bucket> / tugu / profile / workplace / <object>`  |
+| **WorkPlace**  | `<bucket> / tugu / profile / room / <object>`       |
 
 ---
 
@@ -45,3 +46,4 @@
 - **User Profile Photo:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/file-service.user.profile-photo.test.ts)
 - **Company Profile Photo:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/file-service.company.profile-photo.test.ts)
 - **WorkPlace Profile Photo:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/file-service.work-place.profile-photo.test.ts)
+- **Room Profile Photo:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/file-service.room.profile-photo.test.ts)
