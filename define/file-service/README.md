@@ -9,7 +9,7 @@
 | **SuperAdmin** | `<bucket> / tugu / profile / superadmin / <object>` |
 | **Company**    | `<bucket> / tugu / profile / company / <object>`    |
 | **WorkPlace**  | `<bucket> / tugu / profile / workplace / <object>`  |
-| **WorkPlace**  | `<bucket> / tugu / profile / room / <object>`       |
+| **Room**       | `<bucket> / tugu / profile / room / <object>`       |
 
 ---
 
