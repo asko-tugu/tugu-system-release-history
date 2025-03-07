@@ -15,15 +15,15 @@
 
 ## **📌 Room File 저장 경로**
 
-| 타입      | 경로                                          |
-| --------- | --------------------------------------------- |
-| **Voice** | `<bucket> / tugu / <room> / voice / <object>` |
-| **Photo** | `<bucket> / tugu / <room> / photo / <object>` |
-| **File**  | `<bucket> / tugu / <room> / file / <object>`  |
+| 타입      | 경로                                                    |
+| --------- | ------------------------------------------------------- |
+| **Voice** | `<bucket> / tugu / room / <room id> / voice / <object>` |
+| **Photo** | `<bucket> / tugu / room / <room id> / photo / <object>` |
+| **File**  | `<bucket> / tugu / room / <room id> / file / <object>`  |
 
 ---
 
-## **📌 파일 저장 형식**
+## **📌 파일(object) 저장 형식**
 
 - **파일명 형식:** `<day(utc)>-<uuid>`
   - 📌 **예시:** `20250306-c8d9f7a2-3c4b-4d5e-9f8a-b1c2d3e4f567`
