@@ -41,9 +41,15 @@
 
 - [📄 Swagger API Docs](https://api-dev.aswing.net/file-service/docs#/)
 
-### **📌 Test Code**
+### **📌 프로필 사진 Test Code**
 
 - **User Profile Photo:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/profile-photo/file-service.user.profile-photo.test.ts)
 - **Company Profile Photo:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/profile-photo/file-service.company.profile-photo.test.ts)
 - **WorkPlace Profile Photo:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/profile-photo/file-service.work-place.profile-photo.test.ts)
 - **Room Profile Photo:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/profile-photo/file-service.room.profile-photo.test.ts)
+
+### **📌 Room File Test Code**
+
+- **Room 일반 File:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/room-file/file-service.room-file.test.ts)
+- **Room Voice File:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/room-file/file-service.room-voice-file.test.ts)
+- **Room Image File:** [🔗 테스트 코드](https://github.com/asko-tugu/tugu-backend-tester/blob/main/test/file-service/room-file/file-service.room-image-file.test.ts)
