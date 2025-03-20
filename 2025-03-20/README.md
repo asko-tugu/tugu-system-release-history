@@ -16,29 +16,29 @@
 
 ## DB 작업 및 마이너그레이션
 
-| 구분 | 작업 내용                                    | 사전작업 | 상태   |
-| ---- | -------------------------------------------- | -------- | ------ |
-| 파일 | file_metadata Table 생성                     | ✔️       | ⬜준비 |
-| 파일 | profile_photo Table 생성                     | ✔️       | ⬜준비 |
-| 파일 | room_file Table 생성                         | ✔️       | ⬜준비 |
-| 파일 | chat Table에 room_files 컬럼 추가            | ✔️       | ⬜준비 |
-| 파일 | chat Table에 chat_type에 roomfile 타입 추가  | ✔️       | ⬜준비 |
-| 파일 | user Table에 photo_url 컬럼 추가             | ✔️       | ⬜준비 |
-| 파일 | admin Table에 photo_url 컬럼 추가            | ✔️       | ⬜준비 |
-| 파일 | super_admin Table에 photo_url 컬럼 추가      | ✔️       | ⬜준비 |
-| 파일 | room Table에 photo_url 컬럼 추가             | ✔️       | ⬜준비 |
-| 파일 | company Table에 photo_url 컬럼 추가          | ✔️       | ⬜준비 |
-| 파일 | work_place Table에 photo_url 컬럼 추가       | ✔️       | ⬜준비 |
-| 초대 | room_invite Table에 from_user_type 컬럼 추가 | ✔️       | ✅완료 |
-| 초대 | room_invite Table에 to_user_type 컬럼 추가   | ✔️       | ✅완료 |
+| 구분 | Table         | 내용                                | 사전작업 | 상태   |
+| ---- | ------------- | ----------------------------------- | -------- | ------ |
+| 파일 | file_metadata | 생성                                | ✔️       | ⬜준비 |
+| 파일 | profile_photo | 생성                                | ✔️       | ⬜준비 |
+| 파일 | room_file     | 생성                                | ✔️       | ⬜준비 |
+| 파일 | chat          | room_files 컬럼 추가(JSON)          | ✔️       | ⬜준비 |
+| 파일 | chat          | chat_type 컬럼에 roomfile 타입 추가 | ✔️       | ⬜준비 |
+| 파일 | user          | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
+| 파일 | admin         | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
+| 파일 | super_admin   | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
+| 파일 | room          | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
+| 파일 | company       | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
+| 파일 | work_place    | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
+| 초대 | room_invite   | from_user_type 컬럼 추가            | ✔️       | ✅완료 |
+| 초대 | room_invite   | to_user_type 컬럼 추가              | ✔️       | ✅완료 |
 
 ## 개선 작업
 
 | 구분   | 작업 내용                                                                                | 사전작업 | 상태   |
 | ------ | ---------------------------------------------------------------------------------------- | -------- | ------ |
 | 파일   | FileService 신규 배포 - AWS S3 연동 관련 파일정보관리/프로필/대화방파일 관련 처리 서비스 | ✔️       | ⬜준비 |
-| 파일   | 대화방 Voice/Image/File 파일 채팅 S3 연동 대응 사전 작업                                 | ✔️       | ⬜준비 |
-| 파일   | 사용자/Admin/SuperAdmim/Company/WorkPlace/Room 프로필 사진 S3연동 대응 사전 작업         | ✔️       | ⬜준비 |
+| 파일   | 대화방 Voice/Image/File 파일 채팅 AWS S3 대응 사전 작업                                  | ✔️       | ⬜준비 |
+| 파일   | 사용자/Admin/SuperAdmim/Company/WorkPlace/Room 프로필 사진 AWS S3 대응 사전 작업         | ✔️       | ⬜준비 |
 | 대화방 | 대화방 생성/삭제/초대/강퇴/나가기/이름변경 'room' socket.io Event 추가                   | ✔️       | ⬜준비 |
 | 대화방 | 조직 사용자 Login/Logout/조직변경/현장변경 'company' socket.io Event 추가                | ✔️       | ⬜준비 |
 | 대화방 | 조직 알림 companyJoin' socket.io Event 추가                                              | ✔️       | ⬜준비 |
