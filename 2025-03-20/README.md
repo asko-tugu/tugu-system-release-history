@@ -8,27 +8,28 @@
 
 ## 점검 사전 작업
 
-| 작업 내용                 | 상태   |
-| ------------------------- | ------ |
-| DB/File/소스 백업         | ⬜준비 |
-| FileService 업데이트      | ⬜준비 |
-| DB 작업 및 마이너그레이션 | ⬜준비 |
+| 작업 내용                      | 상태   |
+| ------------------------------ | ------ |
+| DB/File/소스 백업              | ✅완료 |
+| FileService 업데이트           | ✅완료 |
+| DB 작업 및 마이너그레이션      | ✅완료 |
+| PM2 서비스 재등록 및 목록 저장 | ✅완료 |
 
 ## DB 작업 및 마이너그레이션
 
 | 구분 | Table         | 내용                                | 사전작업 | 상태   |
 | ---- | ------------- | ----------------------------------- | -------- | ------ |
-| 파일 | file_metadata | 생성                                | ✔️       | ⬜준비 |
-| 파일 | profile_photo | 생성                                | ✔️       | ⬜준비 |
-| 파일 | room_file     | 생성                                | ✔️       | ⬜준비 |
-| 파일 | chat          | room_files 컬럼 추가(JSON)          | ✔️       | ⬜준비 |
-| 파일 | chat          | chat_type 컬럼에 roomfile 타입 추가 | ✔️       | ⬜준비 |
-| 파일 | user          | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
-| 파일 | admin         | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
-| 파일 | super_admin   | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
-| 파일 | room          | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
-| 파일 | company       | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
-| 파일 | work_place    | photo_url 컬럼 추가                 | ✔️       | ⬜준비 |
+| 파일 | file_metadata | 생성                                | ✔️       | ✅완료 |
+| 파일 | profile_photo | 생성                                | ✔️       | ✅완료 |
+| 파일 | room_file     | 생성                                | ✔️       | ✅완료 |
+| 파일 | chat          | room_files 컬럼 추가(JSON)          | ✔️       | ✅완료 |
+| 파일 | chat          | chat_type 컬럼에 roomfile 타입 추가 | ✔️       | ✅완료 |
+| 파일 | user          | photo_url 컬럼 추가                 | ✔️       | ✅완료 |
+| 파일 | admin         | photo_url 컬럼 추가                 | ✔️       | ✅완료 |
+| 파일 | super_admin   | photo_url 컬럼 추가                 | ✔️       | ✅완료 |
+| 파일 | room          | photo_url 컬럼 추가                 | ✔️       | ✅완료 |
+| 파일 | company       | photo_url 컬럼 추가                 | ✔️       | ✅완료 |
+| 파일 | work_place    | photo_url 컬럼 추가                 | ✔️       | ✅완료 |
 | 초대 | room_invite   | from_user_type 컬럼 추가            | ✔️       | ✅완료 |
 | 초대 | room_invite   | to_user_type 컬럼 추가              | ✔️       | ✅완료 |
 
@@ -36,21 +37,29 @@
 
 | 구분   | 작업 내용                                                                                 | 사전작업 | 상태   |
 | ------ | ----------------------------------------------------------------------------------------- | -------- | ------ |
-| 파일   | File Service 신규 배포 - AWS S3 연동 관련 파일정보관리/프로필/대화방파일 관련 처리 서비스 | ✔️       | ⬜준비 |
-| 파일   | 대화방 Voice/Image/File 파일 채팅 AWS S3 대응 사전 작업                                   | ✔️       | ⬜준비 |
-| 파일   | 사용자/Admin/SuperAdmim/Company/WorkPlace/Room 프로필 사진 AWS S3 대응 사전 작업          | ✔️       | ⬜준비 |
-| 대화방 | 대화방 생성/삭제/초대/강퇴/나가기/이름변경 'room' socket.io Event 추가                    | ✔️       | ⬜준비 |
-| 대화방 | 조직 사용자 Login/Logout/조직변경/현장변경 'company' socket.io Event 추가                 | ✔️       | ⬜준비 |
-| 대화방 | 조직 알림 companyJoin' socket.io Event 추가                                               | ✔️       | ⬜준비 |
-| 대화방 | App 즐겨 찾기 목록 추가 기준 오름차순 정렬                                                | ✔️       | ⬜준비 |
-| 인증   | Auth Service 업데이트                                                                     | ✖️       | ⬜준비 |
+| 파일   | File Service 신규 배포 - AWS S3 연동 관련 파일정보관리/프로필/대화방파일 관련 처리 서비스 | ✔️       | ✅완료 |
+| 파일   | 대화방 Voice/Image/File 파일 채팅 AWS S3 대응 사전 작업                                   | ✔️       | ✅완료 |
+| 파일   | 사용자/Admin/SuperAdmim/Company/WorkPlace/Room 프로필 사진 AWS S3 대응 사전 작업          | ✔️       | ✅완료 |
+| 대화방 | 대화방 생성/삭제/초대/강퇴/나가기/이름변경 'room' socket.io Event 추가                    | ✔️       | ✅완료 |
+| 대화방 | 조직 사용자 Login/Logout/조직변경/현장변경 'company' socket.io Event 추가                 | ✔️       | ✅완료 |
+| 대화방 | 조직 알림 companyJoin' socket.io Event 추가                                               | ✔️       | ✅완료 |
+| 대화방 | App 즐겨 찾기 목록 추가 기준 오름차순 정렬                                                | ✔️       | ✅완료 |
+| 인증   | Auth Service 업데이트                                                                     | ✖️       | ✅완료 |
 
 ## 오류 수정
 
 | 구분     | 작업 내용                                              | 사전작업 | 상태   |
 | -------- | ------------------------------------------------------ | -------- | ------ |
-| 초대알림 | 대화방 초대 알림 정보에 사용자 타입 정보 설정 API 추가 | ✔️       | ⬜준비 |
-| 조직도   | 조직도 하위 그룹 최대 5개 까지만 출력/설정 문제 수정   | ✖️       | ⬜준비 |
+| 초대알림 | 대화방 초대 알림 정보에 사용자 타입 정보 설정 API 추가 | ✔️       | ✅완료 |
+| 조직도   | 조직도 하위 그룹 최대 5개 까지만 출력/설정 문제 수정   | ✖️       | ✅완료 |
+
+## TODO
+
+- App -> 조직도 Profile 사진 서버에서 URL 인지 서버 확인 필요
+  - company/app/organization/${companyId}
+- App -> 센서 정보 Profile 임시로 파일이름만 전달(앱 심사 완료후 서버 업데이트)
+  - workPlace/member/${workPlaceId}?page=${pageParam}&listCnt=15
+- Admin/SuperAdmin 프로필 URL 체크
 
 ## 기타 안내
 
