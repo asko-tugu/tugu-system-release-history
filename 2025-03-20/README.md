@@ -42,6 +42,7 @@
 | 대화방 | 대화방 생성/삭제/초대/강퇴/나가기/이름변경 'room' socket.io Event 추가                   | ✔️       | ⬜준비 |
 | 대화방 | 조직 사용자 Login/Logout/조직변경/현장변경 'company' socket.io Event 추가                | ✔️       | ⬜준비 |
 | 대화방 | 조직 알림 companyJoin' socket.io Event 추가                                              | ✔️       | ⬜준비 |
+| 대화방 | App 즐겨 찾기 목록 추가 기준 오름차순 정렬                                               | ✔️       | ⬜준비 |
 
 ## 오류 수정
 
