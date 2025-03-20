@@ -21,7 +21,6 @@
 | 파일 | file_metadata Table 생성                     | ✔️       | ⬜준비 |
 | 파일 | profile_photo Table 생성                     | ✔️       | ⬜준비 |
 | 파일 | room_file Table 생성                         | ✔️       | ⬜준비 |
-| 파일 | profile_photo Table 생성                     | ✔️       | ⬜준비 |
 | 파일 | chat Table에 room_files 컬럼 추가            | ✔️       | ⬜준비 |
 | 파일 | chat Table에 chat_type에 roomfile 타입 추가  | ✔️       | ⬜준비 |
 | 파일 | user Table에 photo_url 컬럼 추가             | ✔️       | ⬜준비 |
