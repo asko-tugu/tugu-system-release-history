@@ -16,11 +16,14 @@ Handles broadcasting commands and data to a specific room.
 
 ### Parameters
 
-| Name   | Type   | Required | Description                                                                        |
-| ------ | ------ | -------- | ---------------------------------------------------------------------------------- |
-| `room` | string | Yes      | The target room to broadcast the event.                                            |
-| `cmd`  | string | Yes      | The command to execute in the room.                                                |
-| `data` | object | Yes      | The payload associated with the command. The structure depends on the `cmd` value. |
+| Name      | Type     | Required | Description                                                                        |
+| --------- | -------- | -------- | ---------------------------------------------------------------------------------- |
+| `room`    | string   | Yes      | The target room to broadcast the event.                                            |
+| `userIds` | string[] | No       | The target users the event.                                                        |
+| `cmd`     | string   | Yes      | The command to execute in the room.                                                |
+| `data`    | object   | Yes      | The payload associated with the command. The structure depends on the `cmd` value. |
+
+- Room Broadcast 시에 요청 Client가 해당 Room에 Join 상태
 
 ---
 
