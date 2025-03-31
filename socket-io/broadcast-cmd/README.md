@@ -18,8 +18,8 @@ Handles broadcasting commands and data to a specific room.
 
 | Name      | Type     | Required | Description                                                                        |
 | --------- | -------- | -------- | ---------------------------------------------------------------------------------- |
-| `room`    | string   | Yes      | The target room to broadcast the event.                                            |
-| `userIds` | string[] | No       | The target users the event.                                                        |
+| `room`    | string   | Yes      | The target room(roomId) to broadcast the event.                                    |
+| `userIds` | string[] | No       | The target users(userId array) the event.                                          |
 | `cmd`     | string   | Yes      | The command to execute in the room.                                                |
 | `data`    | object   | Yes      | The payload associated with the command. The structure depends on the `cmd` value. |
 
