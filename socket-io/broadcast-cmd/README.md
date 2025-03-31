@@ -29,10 +29,12 @@ Handles broadcasting commands and data to a specific room.
 
 ### Supported `cmd` Values
 
-| **`cmd`**             | **Description**       | **`data` Structure**                   |
-| --------------------- | --------------------- | -------------------------------------- |
-| `1. voiceStreamStart` | VoiceStream 전송 시작 | `{ userId: string, timestamp: string}` |
-| `2. voiceStreamStop`  | VoiceStream 전송 종료 | `{ userId: string, timestamp: string}` |
+| **`cmd`**             | **Description**         | **`data` Structure**                   |
+| --------------------- | ----------------------- | -------------------------------------- |
+| `1. voiceStreamStart` | VoiceStream 전송 시작   | `{ userId: string, timestamp: string}` |
+| `2. voiceStreamStop`  | VoiceStream 전송 종료   | `{ userId: string, timestamp: string}` |
+| `3. voiceStreamOpen`  | VoiceStream 대화방 열기 |                                        |
+| `4. voiceStreamClose` | VoiceStream 대화방 닫기 |                                        |
 
 ---
 
