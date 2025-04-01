@@ -42,12 +42,12 @@
 | **Admin**      | [Link](https://github.com/asko-tugu/tugu-admin)       | 회원사 관리 사이트 소스 |
 | **SuperAdmin** | [Link](https://github.com/asko-tugu/tugu-super-admin) | Asko 관리 사이트 소스   |
 
-## Local Test
+## Local Test(with NginX)
 
-| 구분                      | URL                                              | Port | 비고                         |
-| ------------------------- | ------------------------------------------------ | ---- | ---------------------------- |
-| **Backend API**           | [Link](http://localhost/api/docs)                | 3838 | Backend Swagger API Doc      |
-| **Auth Service API**      | [Link](http://localhost/auth-service/docs#/)     | 5858 | 인증 서비스 Swagger API Doc  |
-| **File Service API**      | [Link](http://localhost/file-service/docs#/)     | 4848 | 파일 서비스 Swagger API Doc  |
-| **Batch Service API**     | [Link](http://localhost/batch-service/docs#)     | 6868 | Batch 서비스 Swagger API Doc |
-| **Community Service API** | [Link](http://localhost/community-service/docs#) | 9898 | 소통 서비스 Swagger API Doc  |
+| 구분                         | URL                                              | Port | 비고                         |
+| ---------------------------- | ------------------------------------------------ | ---- | ---------------------------- |
+| 🔗 **Backend API**           | [Link](http://localhost/api/docs)                | 3838 | Backend Swagger API Doc      |
+| 🔐 **Auth Service API**      | [Link](http://localhost/auth-service/docs#/)     | 5858 | 인증 서비스 Swagger API Doc  |
+| 📁 **File Service API**      | [Link](http://localhost/file-service/docs#/)     | 4848 | 파일 서비스 Swagger API Doc  |
+| 🕒 **Batch Service API**     | [Link](http://localhost/batch-service/docs#)     | 6868 | Batch 서비스 Swagger API Doc |
+| 💬 **Community Service API** | [Link](http://localhost/community-service/docs#) | 9898 | 소통 서비스 Swagger API Doc  |
