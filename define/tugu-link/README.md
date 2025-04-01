@@ -1,38 +1,16 @@
 # TUGU 개발 관련 링크 모음
 
-## Dev
+## Dev/Prod
 
-| 구분                      | URL                                                         | 비고                         |
-| ------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| **Backend API**           | [Link](https://api-dev.aswing.net/api/docs#/)               | Backend Swagger API Doc      |
-| **Auth Service API**      | [Link](https://api-dev.aswing.net/auth-service/docs#/)      | 인증 서비스 Swagger API Doc  |
-| **File Service API**      | [Link](https://api-dev.aswing.net/file-service/docs#/)      | 파일 서비스 Swagger API Doc  |
-| **Batch Service API**     | [Link](https://api-dev.aswing.net/batch-service/docs#/)     | Batch 서비스 Swagger API Doc |
-| **Community Service API** | [Link](https://api-dev.aswing.net/community-service/docs#/) | 소통 서비스 Swagger API Doc  |
-| **Admin Site**            | [Link](https://admin-dev.aswing.net/)                       | 회원사 관리 사이트           |
-| **Super Admin Site**      | [Link](https://superadmin-dev.aswing.net/)                  | Asko 관리 사이트             |
-
-## Prod
-
-| 구분                      | URL                                                     | 비고                         |
-| ------------------------- | ------------------------------------------------------- | ---------------------------- |
-| **Backend API**           | [Link](https://api.aswing.net/api/docs#/)               | Backend Swagger API Doc      |
-| **Auth Service API**      | [Link](https://api.aswing.net/auth-service/docs#/)      | 인증 서비스 Swagger API Doc  |
-| **File Service API**      | [Link](https://api.aswing.net/file-service/docs#/)      | 파일 서비스 Swagger API Doc  |
-| **Batch Service API**     | [Link](https://api.aswing.net/batch-service/docs#/)     | Batch 서비스 Swagger API Doc |
-| **Community Service API** | [Link](https://api.aswing.net/community-service/docs#/) | 소통 서비스 Swagger API Doc  |
-| **Admin Site**            | [Link](https://admin.aswing.net/)                       | 회원사 관리 사이트           |
-| **Super Admin Site**      | [Link](https://superadmin.aswing.net/)                  | Asko 관리 사이트             |
-
-## Local Test
-
-| 구분                      | URL                                              | Port | 비고                         |
-| ------------------------- | ------------------------------------------------ | ---- | ---------------------------- |
-| **Backend API**           | [Link](http://localhost/api/docs)                | 3838 | Backend Swagger API Doc      |
-| **Auth Service API**      | [Link](http://localhost/auth-service/docs#/)     | 5858 | 인증 서비스 Swagger API Doc  |
-| **File Service API**      | [Link](http://localhost/file-service/docs#/)     | 4848 | 파일 서비스 Swagger API Doc  |
-| **Batch Service API**     | [Link](http://localhost/batch-service/docs#)     | 6868 | Batch 서비스 Swagger API Doc |
-| **Community Service API** | [Link](http://localhost/community-service/docs#) | 9898 | 소통 서비스 Swagger API Doc  |
+| 구분                         | Dev URL                                                    | Prod URL                                                | 비고                         |
+| ---------------------------- | ---------------------------------------------------------- | ------------------------------------------------------- | ---------------------------- |
+| 🔗 **Backend API**           | [Dev](https://api-dev.aswing.net/api/docs#/)               | [Prod](https://api.aswing.net/api/docs#/)               | Backend Swagger API Doc      |
+| 🔐 **Auth Service API**      | [Dev](https://api-dev.aswing.net/auth-service/docs#/)      | [Prod](https://api.aswing.net/auth-service/docs#/)      | 인증 서비스 Swagger API Doc  |
+| 📁 **File Service API**      | [Dev](https://api-dev.aswing.net/file-service/docs#/)      | [Prod](https://api.aswing.net/file-service/docs#/)      | 파일 서비스 Swagger API Doc  |
+| 🕒 **Batch Service API**     | [Dev](https://api-dev.aswing.net/batch-service/docs#/)     | [Prod](https://api.aswing.net/batch-service/docs#/)     | Batch 서비스 Swagger API Doc |
+| 💬 **Community Service API** | [Dev](https://api-dev.aswing.net/community-service/docs#/) | [Prod](https://api.aswing.net/community-service/docs#/) | 소통 서비스 Swagger API Doc  |
+| 🧑‍💼 **Admin Site**            | [Dev](https://admin-dev.aswing.net/)                       | [Prod](https://admin.aswing.net/)                       | 회원사 관리 사이트           |
+| 👨‍💼 **Super Admin Site**      | [Dev](https://superadmin-dev.aswing.net/)                  | [Prod](https://superadmin.aswing.net/)                  | Asko 관리 사이트             |
 
 ## Backend GitHub(Only Developer)
 
@@ -63,3 +41,13 @@
 | -------------- | ----------------------------------------------------- | ----------------------- |
 | **Admin**      | [Link](https://github.com/asko-tugu/tugu-admin)       | 회원사 관리 사이트 소스 |
 | **SuperAdmin** | [Link](https://github.com/asko-tugu/tugu-super-admin) | Asko 관리 사이트 소스   |
+
+## Local Test
+
+| 구분                      | URL                                              | Port | 비고                         |
+| ------------------------- | ------------------------------------------------ | ---- | ---------------------------- |
+| **Backend API**           | [Link](http://localhost/api/docs)                | 3838 | Backend Swagger API Doc      |
+| **Auth Service API**      | [Link](http://localhost/auth-service/docs#/)     | 5858 | 인증 서비스 Swagger API Doc  |
+| **File Service API**      | [Link](http://localhost/file-service/docs#/)     | 4848 | 파일 서비스 Swagger API Doc  |
+| **Batch Service API**     | [Link](http://localhost/batch-service/docs#)     | 6868 | Batch 서비스 Swagger API Doc |
+| **Community Service API** | [Link](http://localhost/community-service/docs#) | 9898 | 소통 서비스 Swagger API Doc  |
