@@ -30,7 +30,7 @@
 | 🧑‍💻 **User**             | -              | 01044444444~01099999999 | asko119!!  | 연구소 공용        |
 | 🛠️ **Super Admin Site** | -              | askomng                 | passwd@119 | TUGU 시스템 관리   |
 | 🧑‍💼 **Admin Site**       | 아스코주식회사 | askoplus                | asko119!   | 회원사 관리 Master |
-| 🧑‍💼 **Admin Site**       | 아스코주식회사 | kmkim                   | qwer1234!  | 회원사 관리        |
+| 🧑‍💼 **Admin Site**       | 아스코주식회사 | kmkim                   | qwer1234!  | 회원사 관리 Sub    |
 | 🧑‍💼 **Admin Site**       | 아스코개발     | dev                     | asko119!!  | 회원사 관리 Master |
 
 ## Backend GitHub(Only Developer)
