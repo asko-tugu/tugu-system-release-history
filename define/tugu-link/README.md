@@ -1,6 +1,6 @@
-# TUGU 개발 관련 링크 모음
+# 📌 TUGU 개발 관련 링크 모음
 
-## Dev/Prod
+## 📌 Dev/Prod
 
 | 구분                         | Dev URL                                                    | Prod URL                                                | 비고                         |
 | ---------------------------- | ---------------------------------------------------------- | ------------------------------------------------------- | ---------------------------- |
@@ -12,7 +12,7 @@
 | 🧑‍💼 **Admin Site**            | [Dev](https://admin-dev.aswing.net/)                       | [Prod](https://admin.aswing.net/)                       | 회원사 관리 사이트           |
 | 🛠️ **Super Admin Site**      | [Dev](https://superadmin-dev.aswing.net/)                  | [Prod](https://superadmin.aswing.net/)                  | TUGU 시스템 관리 사이트      |
 
-## Dev Test 계정
+## 📌 Dev Test 계정
 
 | 구분                 | Company               | Type   | ID                      | Password  | 비고               |
 | -------------------- | --------------------- | ------ | ----------------------- | --------- | ------------------ |
@@ -22,7 +22,7 @@
 | 🧑‍💼 **Admin**         | 아스코주식회사 Master | Master | alonox                  | P@ssw0rd  | 회원사 관리 Master |
 | 🧑‍💼 **Admin**         | 아스코개발 Master     | Master | dev                     | asko119!! | 회원사 관리 Master |
 
-## Prod Test 계정
+## 📌 Prod Test 계정
 
 | 구분                 | Company        | Type   | ID                      | Password   | 비고               |
 | -------------------- | -------------- | ------ | ----------------------- | ---------- | ------------------ |
@@ -33,7 +33,7 @@
 | 🧑‍💼 **Admin**         | 아스코주식회사 | Sub    | kmkim                   | qwer1234!  | 회원사 관리 Sub    |
 | 🧑‍💼 **Admin**         | 아스코개발     | Master | dev                     | asko119!!  | 회원사 관리 Master |
 
-## Backend GitHub(Only Developer)
+## 📌 Backend GitHub(Only Developer)
 
 | 구분                         | URL                                                              | 비고                         |
 | ---------------------------- | ---------------------------------------------------------------- | ---------------------------- |
@@ -47,7 +47,7 @@
 | **Release History and Docs** | [Link](https://github.com/asko-tugu/tugu-system-release-history) | Release 및 문서              |
 | **Signaling**                | [Link](https://github.com/asko-tugu/tugu-signaling)              | WebRTC Signaling Server 소스 |
 
-## 연동
+## 📌 연동
 
 | 구분          | URL                                           | 비고                                 |
 | ------------- | --------------------------------------------- | ------------------------------------ |
@@ -56,14 +56,14 @@
 | **알리고**    | [Link](https://smartsms.aligo.in/login.html)  | SMS 서비스                           |
 | **Asko 메일** | [Link](https://m83.mailplug.com/member/login) | 메일(@asko.plus / @sanghoonpnp.com ) |
 
-## Admin/SuperAdmin GitHub(Only Developer)
+## 📌 Admin/SuperAdmin GitHub(Only Developer)
 
 | 구분           | URL                                                   | 비고                    |
 | -------------- | ----------------------------------------------------- | ----------------------- |
 | **Admin**      | [Link](https://github.com/asko-tugu/tugu-admin)       | 회원사 관리 사이트 소스 |
 | **SuperAdmin** | [Link](https://github.com/asko-tugu/tugu-super-admin) | Asko 관리 사이트 소스   |
 
-## Local Test(with NginX)
+## 📌 Local Test(with NginX)
 
 | 구분                         | URL                                              | Port | 비고                         |
 | ---------------------------- | ------------------------------------------------ | ---- | ---------------------------- |
