@@ -10,7 +10,28 @@
 | 🕒 **Batch Service API**     | [Dev](https://api-dev.aswing.net/batch-service/docs#/)     | [Prod](https://api.aswing.net/batch-service/docs#/)     | Batch 서비스 Swagger API Doc |
 | 💬 **Community Service API** | [Dev](https://api-dev.aswing.net/community-service/docs#/) | [Prod](https://api.aswing.net/community-service/docs#/) | 소통 서비스 Swagger API Doc  |
 | 🧑‍💼 **Admin Site**            | [Dev](https://admin-dev.aswing.net/)                       | [Prod](https://admin.aswing.net/)                       | 회원사 관리 사이트           |
-| 👨‍💼 **Super Admin Site**      | [Dev](https://superadmin-dev.aswing.net/)                  | [Prod](https://superadmin.aswing.net/)                  | Asko 관리 사이트             |
+| 🛠️ **Super Admin Site**      | [Dev](https://superadmin-dev.aswing.net/)                  | [Prod](https://superadmin.aswing.net/)                  | TUGU 시스템 관리 사이트      |
+
+## Dev Test 계정
+
+| 구분                    | Company        | ID                      | Password  | 비고               |
+| ----------------------- | -------------- | ----------------------- | --------- | ------------------ |
+| 🧑‍💻 **User**             | -              | 01011111111~01033333333 | asko119!! | Backeend 전용      |
+| 🧑‍💻 **User**             | -              | 01044444444~01099999999 | asko119!! | 연구소 공용용      |
+| 🛠️ **Super Admin Site** | -              | super                   | asko119!! | TUGU 시스템 관리   |
+| 🧑‍💼 **Admin Site**       | 아스코주식회사 | alonox                  | P@ssw0rd  | 회원사 관리 Master |
+| 🧑‍💼 **Admin Site**       | 아스코개발     | dev                     | asko119!! | 회원사 관리 Master |
+
+## Prod Test 계정
+
+| 구분                    | Company        | ID                      | Password   | 비고               |
+| ----------------------- | -------------- | ----------------------- | ---------- | ------------------ |
+| 🧑‍💻 **User**             | -              | 01011111111~01033333333 | asko119!!  | Backeend 전용      |
+| 🧑‍💻 **User**             | -              | 01044444444~01099999999 | asko119!!  | 연구소 공용        |
+| 🛠️ **Super Admin Site** | -              | askomng                 | passwd@119 | TUGU 시스템 관리   |
+| 🧑‍💼 **Admin Site**       | 아스코주식회사 | askoplus                | asko119!   | 회원사 관리 Master |
+| 🧑‍💼 **Admin Site**       | 아스코주식회사 | kmkim                   | qwer1234!  | 회원사 관리        |
+| 🧑‍💼 **Admin Site**       | 아스코개발     | dev                     | asko119!!  | 회원사 관리 Master |
 
 ## Backend GitHub(Only Developer)
 
